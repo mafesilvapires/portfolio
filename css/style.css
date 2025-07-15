@@ -10,10 +10,10 @@
 }
 
 :root {
-    --bg-color:;
-    --second-bg-color:;
-    --text-color:;
-    --main-color:;
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: #ffffff;
+    --main-color: #00ffee;
 }
 
 html{
@@ -32,7 +32,7 @@ body{
     left: 0;
     width: 100%;
     padding: 4rem 12% 4rem;
-    background: ;
+    background: rgba(0, 0, 0, 0,3);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@ body{
     font-size: 3rem;
     color: var(--text-color);
     font-weight: 800;
-    cursor: pointer
+    cursor: pointer;
     transition: 0.3s ease;
 }
 
@@ -253,19 +253,19 @@ span{
     50%,
     55%,
     70%,
-    75%
-    90%
+    75%,
+    90%,
     95%{
         width: 0;
     }
     5%,
     20%,
     25%,
-    40%
+    40%,
     45%,
     60%,
     65%,
-    80&,
+    80%,
     85%{
         width: calc(100% + 8px);
     }
