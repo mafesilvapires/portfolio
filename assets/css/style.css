@@ -174,9 +174,9 @@ span{
 }
 
 .social-icons a:hover{
-    color: var(--text-color);
+    color: var(--bg-color);
     transform: scale(1.2);
-    box-shadow: 0 0 25px var(--main-color);
+    /*box-shadow: 0 0 15px var(--main-color);*/
     background-color: var(--main-color);
 }
 
@@ -196,7 +196,7 @@ span{
 
 .btn:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 50px var(--main-color)
+    box-shadow: 0 0 20px var(--main-color)
 }
 
 .btn-group{
@@ -221,7 +221,7 @@ span{
 }
 
 .btn-group a:nth-of-type(2):hover{
-    box-shadow: 0 0 25px var(--main-color);
+/*box-shadow: 0 0 20px var(--main-color);*/
     background-color: var(--main-color);
     color: black;
 }
@@ -270,7 +270,7 @@ span{
     content: "Designer UX/UI";
   }
   61%, 80% {
-    content: "Curiosa";
+    content: "Movida por propósito";
   }
   81%, 100% {
     content: "Apaixonada por tecnologia 💻";
